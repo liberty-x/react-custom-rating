@@ -1,0 +1,27 @@
+{
+  "name": "react-custom-rating",
+  "description": "create your custom rating using the images you want!",
+  "author": "FcScripters <fcscripters@gmail.com> (http://github.com/fcscripters)",
+  "license": "MIT",
+  "version": "0.3.1",
+  "main": "react-custom-rating.js",
+  "scripts": {
+    "build": "jsx react-custom-rating.jsx > react-custom-rating.js",
+    "prepublish": "npm run build"
+  },
+  "browserify": {
+    "transform": [
+      "reactify"
+    ]
+  },
+  "keywords": [
+    "react-component",
+    "custom-rating"
+  ],
+  "devDependencies": {
+    "react-tools": "^0.13.3"
+  },
+  "dependencies": {
+    "react": "^0.14.2"
+  }
+}
